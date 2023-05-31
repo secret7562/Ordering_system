@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
                             @Override
                             public void onClick(DialogInterface dialog, int which, boolean isChecked) {
                                 // 在這裡處理菜單選擇狀態的變化
-                                lastCheckedArray[which] = isChecked;
+                                chooseDish[which] = isChecked;
                             }
                         })
                         .setPositiveButton("確定", new DialogInterface.OnClickListener() {
